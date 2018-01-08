@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_review_hub.SurfReviewParser</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SurfReviewParser</name>
+        <script><![CDATA[var SurfReviewParser = Class.create();
+SurfReviewParser.prototype = {
+    initialize: function() {
+    },
+
+    type: 'SurfReviewParser'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>pradeep.g</sys_created_by>
+        <sys_created_on>2018-01-08 05:36:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6659919ddbe3cf00a86a5404ce96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SurfReviewParser</sys_name>
+        <sys_package display_value="review_hub" source="x_snc_review_hub">bd29155ddbe3cf00a86a5404ce961990</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="review_hub">bd29155ddbe3cf00a86a5404ce961990</sys_scope>
+        <sys_update_name>sys_script_include_6659919ddbe3cf00a86a5404ce96195b</sys_update_name>
+        <sys_updated_by>pradeep.g</sys_updated_by>
+        <sys_updated_on>2018-01-08 05:36:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
